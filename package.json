@@ -1,0 +1,22 @@
+{
+  "name": "audio-fx",
+  "version": "1.0.0",
+  "description": "A soft to apply effects on audio",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "npm run build && electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.1.0",
+    "electron-builder": "^23.6.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
